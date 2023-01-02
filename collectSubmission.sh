@@ -17,12 +17,13 @@ CODE=(
 # be in order of questions so
 # that the generated pdf is
 # in order of questions
+assignment_path = "./notebook/assignment1/"
 NOTEBOOKS=(
-	"knn.ipynb"
-	"svm.ipynb"
-	"softmax.ipynb"
-	"two_layer_net.ipynb"
-	"features.ipynb"
+	assignment_path+"knn.ipynb"
+	assignment_path+"svm.ipynb"
+	assignment_path+"softmax.ipynb"
+	assignment_path+"two_layer_net.ipynb"
+	assignment_path+"features.ipynb"
 )
 
 FILES=( "${CODE[@]}" "${NOTEBOOKS[@]}" )
